@@ -1,0 +1,18 @@
+/*
+Theme Name: 任意のテーマ名
+*/
+@charset "utf-8";
+
+/*-----------------------------------
+テーマ用CSS設定　自由入力
+-----------------------------------*/
+a:hover{
+	opacity :0.7;
+	filter :alpha(opacity=70);
+	-ms-filter :"alpha(opacity=70)";
+}
+
+header, footer{
+	display:flex;
+	flex-wrap:wrap;
+}
