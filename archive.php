@@ -1,12 +1,12 @@
 <?php get_header(); ?>
 
 <!-- タイトルの読み込み -->
-<div class="entry-header">
-<h2 class="pagetitle"><?php echo single_term_title('', false);?></h2>
+<div class="entry__header">
+<h2 class="pageTitle"><?php echo single_term_title('', false);?></h2>
 </div>
 
 <!-- 本文の読み込み -->
-<div class="entry-content">
+<div class="entry__content">
 <?php if(have_posts()): //記事がある場合 ?>
 <?php
 //記事データがある間、1記事分ずつ指定の内容を出力させる（1ページ分の表示記事数は管理画面＞設定＞表示設定から変更できます）
